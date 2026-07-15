@@ -1,5 +1,6 @@
 {
     "name": "shoppingcart",
+    "homepage": "https://github.com/dennis-menace-tech/e-plantShopping.git",
     "private": true,
     "version": "0.0.0",
     "type": "module",
