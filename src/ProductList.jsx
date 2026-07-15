@@ -260,6 +260,13 @@ function ProductList({ onHomeClick }) {
 
     const handleContinueShopping = (e) => {
         e.preventDefault();
+        setAddedToCart({});
+        cartItems.forEach((item) => {
+            setAddedToCart((prevState) => ({
+                ...prevState,
+                [item.name]: true,
+            }));
+        });
         setShowCart(false);
     };
 
